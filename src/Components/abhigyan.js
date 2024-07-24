@@ -7,7 +7,7 @@ const Abhigyan = () => {
                 <br />
                 <img src="abhigyan.jpeg" style={{width: '25vh'}}></img>
                 <p>he feel good</p>
-                <button onClick={() => window.location.href = '/design'}>prev</button>
+                <button onClick={() => window.location.href = '/ayush'}>prev</button>
                 <button onClick={() => window.location.href = '/ziyad'}>next</button>
 
             </section>

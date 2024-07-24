@@ -8,7 +8,7 @@ const Design = () => {
                 <img src="hehe.jpeg" style={{width: '38vh'}}></img>
                 <p>he feel good</p>
                                 <button onClick={() => window.location.href = '/'}>prev</button>
-                <button onClick={() => window.location.href = '/abhigyan'}>next</button>
+                <button onClick={() => window.location.href = '/ayush'}>next</button>
 
             </section>
         </>
