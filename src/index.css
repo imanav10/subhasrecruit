@@ -9,6 +9,10 @@ body {
   justify-content: center;
 }
 
+.heheh {
+  padding-top: '122px';
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,4 +21,11 @@ code {
 button {
   gap: 21px;
   margin: 12px;
+}
+
+@media screen and (max-width: 896px) {
+  .heheh {
+    margin-top: 0px;
+    padding-top: 0%;
+  }
 }

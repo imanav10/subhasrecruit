@@ -15,6 +15,9 @@ import Ktk from './Components/ktk'
 import Ayush from './Components/ayush';
 import End from './Components/end';
 import Lol from './Components/lol'
+import Abhigya from './Components/abhsneh'
+import No from './Components/no'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path:"/ziyad",
-    element: <Ziyad />
+    element: <Ziyad back='ziyad'/>
   },{
     path:"/phonk",
     element: <Phonk />
@@ -39,7 +42,7 @@ const router = createBrowserRouter([
     element: <Ktk />
   },{
     path:"/ayush",
-    element: <Ayush />
+    element: <Ayush back='ayush'/>
   },
   {
     path:"/end",
@@ -48,6 +51,13 @@ const router = createBrowserRouter([
   {
     path:"/lol",
     element: <Lol />
+  },
+  {
+    path:"/abhigya",
+    element: <Abhigya />
+  },{
+    path:"/no",
+    element: <No />
   },
 
 ]);
