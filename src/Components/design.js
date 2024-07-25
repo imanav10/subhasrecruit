@@ -5,7 +5,7 @@ const Design = () => {
             <section style={{paddingTop: '122px', textAlign: 'center', height: '50vh'}}>
                 <p>i feel good</p>
                 <p>you feel good?</p>
-                <img src="hehe.jpeg" style={{width: '38vh'}}></img>
+                <a href='/lol'><img src="hehe.jpeg" style={{width: '38vh'}}></img></a>
                 <p>he feel good</p>
                                 <button onClick={() => window.location.href = '/'}>prev</button>
                 <button onClick={() => window.location.href = '/ayush'}>next</button>

@@ -7,7 +7,7 @@ const ktk = () => {
                     Your browser does not support the audio element.
                 </audio>
                 <h1 style={{textAlign: 'center', justifyContent: 'center'}}>they/them ♥️ </h1>
-                <p>say best of luck to me</p>
+                <p>say best of luck to me obv for interview</p>
                 <img src='kiss.png'style={{height: '42vh'}}></img>
                 <br />
                 <button onClick={() => window.location.href = '/phonk'} >prev</button>

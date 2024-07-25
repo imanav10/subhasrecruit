@@ -14,7 +14,7 @@ import Phonk from './Components/phonk';
 import Ktk from './Components/ktk'
 import Ayush from './Components/ayush';
 import End from './Components/end';
-
+import Lol from './Components/lol'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -44,6 +44,10 @@ const router = createBrowserRouter([
   {
     path:"/end",
     element: <End />
+  },
+  {
+    path:"/lol",
+    element: <Lol />
   },
 
 ]);
